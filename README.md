@@ -1,4 +1,6 @@
 # Stock-Manager
+Stock-Manager is an app, developed in java,that helps the user organise his stocks in one place and keep track
+of their earnings through descriptive charts!
 
 ## Prerequisities
 -	[JFreeChart 1.0.19](https://sourceforge.net/projects/jfreechart/files/1.%20JFreeChart/1.0.19/)
@@ -12,3 +14,4 @@
 ```bash
 ~$ git clone https://github.com/AristiPap/Stock-Manager
 ```
+## Description
