@@ -21,7 +21,7 @@ public class LineChartExample extends JFrame {
     DefaultCategoryDataset dataset = createDataset(user);
     // Create chart
     JFreeChart chart = ChartFactory.createLineChart(
-        "Stock Traffic", // Chart title
+        "Stock-Cost Variance", // Chart title
         "Date", // X-Axis Label
         "Profit", // Y-Axis Label
         dataset
@@ -44,7 +44,7 @@ public class LineChartExample extends JFrame {
     for(int j=0; j<obj.getStockRecord().size(); j++){
         pos=0;
         for(int k=0; k<obj.getStockRecord().get(thesis).getCost().size(); k++){
-            dataset.addValue(obj.getStockRecord().get(thesis).getCost().get(pos),series.get(thesis),Integer.toString(2020+pos));
+            dataset.addValue(obj.getStockRecord().get(thesis).getCost().get(pos),series.get(thesis),Integer.toString(pos+1)+"/"+Integer.toString(02)+"/"+Integer.toString(2020));
             pos++;
         }
         thesis++;

@@ -28,7 +28,7 @@ public class PieChartExample extends JFrame {
         PieDataset dataset = createDataset(obj);  
       
         // Create chart  
-        JFreeChart chart = ChartFactory.createPieChart("Pie Chart Example",dataset,true,true,false);  
+        JFreeChart chart = ChartFactory.createPieChart("Partial Gains of my Stocks",dataset,true,true,false);  
       
         //Format Label  Marks {0} : ({2})
         //the {2} means that in the chart it will print both the decimal part of the percentage and the "%" sign

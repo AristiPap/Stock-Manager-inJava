@@ -15,7 +15,7 @@ public class Main {
     
     //we'll use the pie chart to show what portion of the earnings each stock has
         SwingUtilities.invokeLater(() -> {  
-        PieChartExample example = new PieChartExample("Pie Chart Example",history.getRecord().get(history.getRecord().size()-1));  
+        PieChartExample example = new PieChartExample("Partial Gains of my Stocks",history.getRecord().get(history.getRecord().size()-1));  
         example.setSize(800, 400);  //size of pie chart (width,height)
         example.setLocationRelativeTo(null);  
     //the program will end when we close the window of the chart
@@ -25,7 +25,7 @@ public class Main {
     //we'll use the line chart to see the value of a stock throughout a time period
         
         SwingUtilities.invokeLater(() -> {
-        LineChartExample example = new LineChartExample("Stock Variance",history.getRecord().get(history.getRecord().size()-1).getUsername(),history.getRecord().get(history.getRecord().size()-1));
+        LineChartExample example = new LineChartExample("Stock-Cost Variance",history.getRecord().get(history.getRecord().size()-1).getUsername(),history.getRecord().get(history.getRecord().size()-1));
         example.setAlwaysOnTop(true);
         example.pack();
         example.setSize(600, 400);
