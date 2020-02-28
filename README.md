@@ -2,11 +2,10 @@
 
 ## Prerequisities
 -	[JFreeChart 1.0.19](https://sourceforge.net/projects/jfreechart/files/1.%20JFreeChart/1.0.19/)
--	an IDE  (the project was developed in Apache NetBeans but works the same in JetBrains)
-```bash
-~$ sudo apt update && sudo apt upgrade
-~$ sudo apt-get install gcc make valgrind
-```
+  >>After you have downloaded the JFreeChart,open the zip folder.Go to the lib folder and choose all the files contained
+    .Then create a project in your editor but on the project categories choose Java with Ant and not Maven as it's much
+      easier to setup your libray.Finally,on the Library section of the project,click right and choose Add JAR/Folder,and
+      copy all the files from the lib file as said above.
 
 ## Download 
 
