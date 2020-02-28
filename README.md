@@ -12,7 +12,7 @@ of their earnings through descriptive charts!
 ## Download 
 
 ```bash
-~$ git clone https://github.com/AristiPap/Stock-Manager
+~$ git clone https://github.com/AristiPap/Stock-Manager-inJava 
 ```
 ## Description
 In detail,the sourcecode files have the following use:
