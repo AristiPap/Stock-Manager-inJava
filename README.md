@@ -18,7 +18,7 @@ of their earnings through descriptive charts!
 ## Description
 In detail,the sourcecode files have the following use:
   
-  ~>Interface:Helps the user signIn/signUp on the app either by searching his username on the list of users(seen in the
+   - Interface:Helps the user signIn/signUp on the app either by searching his username on the list of users(seen in the
    UserRecords file)and confirming his existance on the "database".If the user chooses to signUp then we create a new user 
    and add him to the list with the rest of the users.Furthermore interface adds the stock of the user to his account
    
