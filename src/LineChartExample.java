@@ -45,7 +45,6 @@ public class LineChartExample extends JFrame {
         pos=0;
         for(int k=0; k<obj.getStockRecord().get(thesis).getCost().size(); k++){
             dataset.addValue(obj.getStockRecord().get(thesis).getCost().get(pos),series.get(thesis),Integer.toString(2020+pos));
-            System.out.println("edo"+obj.getStockRecord().get(thesis).getCost().get(pos));
             pos++;
         }
         thesis++;

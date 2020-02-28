@@ -32,6 +32,8 @@ public class Main {
         example.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         example.setVisible(true);
         });
-        history.getRecord().get(history.getRecord().size()-1).getStockRecord().get( history.getRecord().get(history.getRecord().size()-1).getStockRecord().size()-1).HelpSell( history.getRecord().get(history.getRecord().size()-1), history.getRecord().get(history.getRecord().size()-1).getStockRecord().get( history.getRecord().get(history.getRecord().size()-1).getStockRecord().size()-1));
-   }
+       if(history.getRecord().get(history.getRecord().size()-1).getStockRecord().size()>1){
+       history.getRecord().get(history.getRecord().size()-1).getStockRecord().get( history.getRecord().get(history.getRecord().size()-1).getStockRecord().size()-1).HelpSell( history.getRecord().get(history.getRecord().size()-1), history.getRecord().get(history.getRecord().size()-1).getStockRecord().get( history.getRecord().get(history.getRecord().size()-1).getStockRecord().size()-1));
+       }
+    }
 }

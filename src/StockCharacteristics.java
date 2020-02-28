@@ -20,7 +20,6 @@ public class StockCharacteristics {
     public StockCharacteristics(String str){
         CostVariance=new ArrayList<>();
         Stock_name=str;
-        System.out.println("Enter\n");
         
         //obj.getStockRecord().add(new StockCharacteristics(Stock_name));
         InitialCost=(int )(Math.random() * 16487 + 1);
