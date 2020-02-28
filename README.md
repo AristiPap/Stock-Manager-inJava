@@ -7,7 +7,8 @@ of their earnings through descriptive charts!
   >>After you have downloaded the JFreeChart,open the zip folder.Go to the lib folder and choose all the files contained
     .Then create a project in your editor but on the project categories choose Java with Ant and not Maven as it's much
       easier to setup your libray.Finally,on the Library section of the project,click right and choose Add JAR/Folder,and
-      copy all the files from the lib file as said above.
+      copy all the files from the lib file as said above.Note that the project was developed in Apache Netbeans but the same 
+      applies for any other editor.
 
 ## Download 
 
